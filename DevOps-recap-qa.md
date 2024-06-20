@@ -370,3 +370,11 @@ Key Features:
 Example Use Case:
 An employee uses a VPN to securely connect to their company's internal network while working remotely, accessing resources as if they were in the office.
 
+
+# Linux Concepts
+
+[Linux For DevOps](https://github.com/r-narayanan4/Linux-For-DevOps.git)
+
+# Shell Scripting 
+
+
