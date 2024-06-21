@@ -375,6 +375,25 @@ An employee uses a VPN to securely connect to their company's internal network w
 
 [Linux For DevOps](https://github.com/r-narayanan4/Linux-For-DevOps.git)
 
-# Shell Scripting 
+# Shell Scripting  
+
+# Git
+
+# CI/CD - Jenkins and GithubActions
+
+# Docker
+
+# Kubernetes
+
+# Ansible
+
+# AWS
+## Contents
+
+- [AWS Interview Questions](https://github.com/iam-veeramalla/aws-devops-zero-to-hero/tree/main/interview-questions)
+
+# Terraform
+
+# Monitoring tool
 
 
