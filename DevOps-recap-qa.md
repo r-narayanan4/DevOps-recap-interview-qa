@@ -377,22 +377,273 @@ An employee uses a VPN to securely connect to their company's internal network w
 
 # Shell Scripting  
 
+- [Shell Scripting](https://github.com/r-narayanan4/Interview-preparation-for-DevOps/blob/main/5.Shell-Scripting/shell.md): Resources and examples for learning and mastering shell scripting.
+
 # Git
+
+- [Version Control Systems (VCS)](https://github.com/r-narayanan4/Interview-preparation-for-DevOps/blob/main/2.VCS/VCS.md): Comprehensive guide to Version Control Systems, covering Git, SVN, and other VCS tools commonly used in DevOps workflows.
+
 
 # CI/CD - Jenkins and GithubActions
 
+- [Jenkins Setup Guide](https://github.com/r-narayanan4/Interview-preparation-for-DevOps/blob/main/7.CI-CD/Jenkins/jenkins.md): This document provides a comprehensive guide to setting up Jenkins for CI/CD pipelines.
+
+- [GitHub Actions Guide](https://github.com/r-narayanan4/Interview-preparation-for-DevOps/blob/main/7.CI-CD/Github-Actions/github.md): Comprehensive documentation on GitHub Actions for CI/CD pipelines.
+
+- [GitLab Setup and Usage](https://github.com/r-narayanan4/Interview-preparation-for-DevOps/blob/main/7.CI-CD/Gitlab/gitlab.md): Guide for setting up GitLab and utilizing it for CI/CD.
+
 # Docker
+
+- [Docker Interview Questions](https://github.com/r-narayanan4/Interview-preparation-for-DevOps/blob/main/9.Docker/docker-interview-questions.md): Common Docker interview questions and their explanations.
 
 # Kubernetes
 
+- [Kubernetes Guide](https://github.com/r-narayanan4/Interview-preparation-for-DevOps/blob/main/10.Kubernetes/Kubernetes.md): Comprehensive guide to Kubernetes for container orchestration.
+
 # Ansible
 
+## 1. What is Ansible?
+
+Ansible is an open-source automation tool used for configuration management, application deployment, and task automation. It allows infrastructure as code (IaC) by defining configurations in simple, human-readable YAML files called playbooks.
+
+## 2. What is Agentless in Ansible?
+
+Ansible is agentless, meaning it does not require any software to be installed on the managed hosts. Instead, it connects to hosts via SSH (Secure Shell) and executes tasks using modules written in Python.
+
+## 3. Explain about the architecture of Ansible?
+
+Ansible follows a client-server architecture where:
+- Control Node: Machine where Ansible is installed and from which tasks are executed.
+- Managed Nodes: Remote hosts managed by Ansible.
+
+## 4. Explain about the structure of Ansible Playbook?
+
+An Ansible playbook is structured using YAML and consists of:
+- Hosts: Defines which hosts to target.
+- Variables: Allows parameterization of tasks.
+- Tasks: List of actions to be executed on the hosts.
+- Handlers: Tasks triggered by specific events.
+- Roles: Organizational units for playbooks.
+
+## 5. What is the command to run an Ansible playbook?
+
+To run an Ansible playbook:
+```bash
+ansible-playbook playbook.yml
+```
+## 6. How do you test an Ansible playbook?
+
+To test an Ansible playbook without making changes, use the `--check` flag:
+```bash
+ansible-playbook playbook.yml --check
+```
+
+## 7. What is a module in an Ansible playbook? List some modules.
+
+In Ansible, a module is a reusable, standalone script that Ansible uses to perform tasks. Modules can be used to interact with system components such as files, packages, services, and more. Some commonly used modules include:
+- `yum`: Manages packages on RPM-based systems.
+- `apt`: Manages packages on Debian-based systems.
+- `copy`: Copies files from the local or remote machine to a target location.
+- `file`: Manages filesystem objects like directories, symlinks, and permissions.
+
+## 8. What is SSH?
+
+SSH (Secure Shell) is a cryptographic network protocol that allows secure communication between two computers. In the context of Ansible, SSH is used as the default method for connecting to and executing commands on remote servers.
+
+## 9. What are roles in Ansible?
+
+Roles in Ansible are a way to organize and structure your playbooks. A role is essentially a collection of variables, tasks, files, templates, and handlers that can be easily reused across multiple playbooks. Roles help in maintaining clean and modular Ansible code, promoting reusability and readability.
+
+## 10. What is a Jinja template in Ansible?
+
+Jinja is a modern and designer-friendly templating language for Python, modelled after Django’s templates. It is used within Ansible to dynamically generate and manipulate configuration files and scripts. Jinja templates allow you to include variables and control structures in your files, making your configurations more flexible and dynamic.
+
+## 11. What are handlers in Ansible?
+
+Handlers in Ansible are tasks that are only executed when notified by other tasks. They are typically used to restart services or perform similar actions that should only occur when a change has been made. Handlers are defined separately from tasks and are notified using the `notify` directive within tasks.
+
+```yaml
+---
+- name: Example playbook with handlers
+  hosts: all
+  tasks:
+    - name: Ensure nginx is installed
+      yum:
+        name: nginx
+        state: present
+      notify:
+        - Restart nginx
+
+  handlers:
+    - name: Restart nginx
+      service:
+        name: nginx
+        state: restarted
+```
+## 12. What is configuration management?
+
+   Configuration management refers to the process of systematically handling changes to a system in a way that it maintains integrity over time. It typically involves tracking and controlling changes to software, infrastructure, and documentation, ensuring that systems are configured correctly and consistently.
+
+## 13. What type of Architecture is ansible?
+
+   Ansible follows a client-server architecture or a master-slave architecture. It uses a push mechanism where the control node (Ansible master) pushes configurations and tasks to remote nodes (Ansible clients) using SSH.
+
+## 14. What are tasks in ansible?
+
+   In Ansible, tasks refer to the individual units of work that perform actions on remote hosts. Tasks are defined within playbooks and are executed sequentially. They can include a wide range of actions such as installing packages, managing files, running commands, and more.
+
+## 15. What is Active-Passive Deployment strategy with Ansible?
+
+Active-Passive deployment strategy with Ansible involves configuring redundant servers where one (active) serves production traffic while the other (passive) remains on standby. This setup ensures high availability by quickly switching to the passive server if the active one fails.
+
+#### Examples of Deployment Strategies:
+
+1. **Single server:**
+   - Only one server is active at a time, with others on standby.
+   
+2. **Multi-server:**
+   - **Deploy on all servers:** Ansible deploys updates to all servers simultaneously.
+   - **Deploy on selected servers:** Ansible targets specific servers for updates using tags or group names.
+   - **Blue / Green strategy:** Involves maintaining two identical production environments, where one (blue) is active while the other (green) remains inactive but ready to take over.
+
+#### Blue / Green Deployments:
+
+Blue / Green deployments involve maintaining two identical production environments (blue and green). Here’s how Ansible flags --limit blue and --limit green are used:
+
+- `--limit blue`: Limits the deployment to servers in the blue environment.
+- `--limit green`: Limits the deployment to servers in the green environment.
+
+This concept allows for seamless updates and rollback capabilities without downtime, ensuring continuous availability and reducing risk during deployment.
+example:
+ansible-playbook deploy.yml --limit blue
+ansible-playbook deploy.yml --limit green
+
+## 16. What is Ansible Vault? Give commands to use Ansible Vault.
+
+   Ansible Vault is a feature of Ansible that allows you to encrypt sensitive data within your Ansible projects. It provides a way to securely store and manage secrets, such as passwords, API keys, and certificates.
+
+   #### Commands to use Ansible Vault:
+   
+   - **Create a new encrypted file:**
+     ```
+     ansible-vault create secrets.yml
+     ```
+     This command will create a new encrypted file named `secrets.yml` and prompt you to set a password.
+   
+   - **Edit an existing encrypted file:**
+     ```
+     ansible-vault edit secrets.yml
+     ```
+     This command allows you to edit an existing encrypted file `secrets.yml`.
+   
+   - **Encrypt an existing file:**
+     ```
+     ansible-vault encrypt secrets.yml
+     ```
+     Encrypts an existing plaintext file `secrets.yml`.
+   
+   - **Decrypt an encrypted file:**
+     ```
+     ansible-vault decrypt secrets.yml
+     ```
+     Decrypts an encrypted file `secrets.yml` back to plaintext.
+
+## 17. What are Ansible Ad-Hoc commands? Give some example commands.
+
+   Ansible Ad-Hoc commands are one-liners that allow you to perform quick tasks without creating a playbook. They are useful for tasks like running ad-hoc commands, copying files, managing packages, etc.
+
+   #### Examples of Ansible Ad-Hoc commands:
+   
+   - **Ping all servers:**
+     ```
+     ansible all -m ping
+     ```
+     Checks connectivity to all servers.
+   
+   - **Install a package:**
+     ```
+     ansible webserver -m yum -a "name=httpd state=installed"
+     ```
+     Installs Apache (`httpd`) on servers in the `webserver` group.
+   
+   - **Copy a file:**
+     ```
+     ansible webserver -m copy -a "src=file.txt dest=/etc/file.txt"
+     ```
+     Copies `file.txt` to `/etc/file.txt` on servers in the `webserver` group.
+
+## 18. What is inventory and hosts in Ansible? What is the first precedence for ansible.cfg and what is the order of precedence locations?
+
+   **Inventory and Hosts:**
+   - **Inventory:** An inventory in Ansible is a file or directory where you define your managed hosts (servers). It can be a simple text file (`hosts`) or a directory (`inventory/`) containing multiple inventory files.
+
+   - **Hosts:** Hosts are individual machines or servers managed by Ansible. They are defined within the inventory file(s) and grouped based on roles or environments.
+
+   **Precedence for ansible.cfg:**
+   - The first precedence for `ansible.cfg` is the current working directory (`./ansible.cfg`).
+   - Ansible then looks for `/etc/ansible/ansible.cfg`.
+   - If none of the above are found, it uses the default settings built into Ansible.
+
+   **Order of Precedence Locations:**
+   1. Current working directory (`./ansible.cfg`).
+   2. `/etc/ansible/ansible.cfg`.
+   3. Default settings within Ansible.
+
+## 19. Difference between import and include in Ansible playbook?
+
+   - **Import:** Imports another playbook into the current playbook at the location where the `import` statement is used. The imported playbook is run independently of the current playbook.
+
+   - **Include:** Includes another playbook into the current playbook at the location where the `include` statement is used. The included playbook is integrated into the tasks of the current playbook.
+
+   **Example:**
+   ```yaml
+   - name: Include another playbook
+     include: tasks.yml
+
+   - name: Import another playbook
+     import_playbook: tasks.yml
+```
+## ### Ansible Interview Question and Answer
+
+20. What is Error handling in Ansible playbook? Give examples.
+
+Error handling in Ansible playbook allows you to manage and respond to errors that may occur during playbook execution. This ensures graceful handling of failures and enhances playbook robustness.
+
+
+#### Examples of Error Handling:
+
+- **Ignore errors for a specific task:**
+  ```yaml
+  - name: Attempt to restart a service (may fail)
+    service:
+      name: myservice
+      state: restarted
+    ignore_errors: yes
+   #This task attempts to restart myservice but ignores any errors that occur.
+
+  #Fail the playbook on error
+
+  - name: Ensure package is installed
+  package:
+    name: mypackage
+    state: present
+  failed_when: false
+  ```
+This task ensures mypackage is installed and explicitly specifies not to fail even if the package is already present.
+
+- [Ansible remaining questions](https://github.com/r-narayanan4/Interview-preparation-for-DevOps/blob/main/8.Ansible/ansible.md): Documentation and tutorials for Ansible configuration management tool.
+
 # AWS
-## Contents
 
 - [AWS Interview Questions](https://github.com/iam-veeramalla/aws-devops-zero-to-hero/tree/main/interview-questions)
 
+- [AWS Cloud Guide](https://github.com/r-narayanan4/Interview-preparation-for-DevOps/blob/main/11.Cloud/AWS/aws.md): Documentation and resources for AWS services and cloud concepts.
+
+- [AWS Interview Questions](https://github.com/r-narayanan4/AWS-Hands-on-and-scenarios/tree/main/21.AWS_Interview_Questions): Collection of AWS interview questions and scenarios for preparation.
+
 # Terraform
+
+- [AWS Terraform Interview Questions](https://github.com/iam-veeramalla/aws-devops-zero-to-hero/blob/main/interview-questions/aws-terraform.md): Interview questions related to AWS and Terraform.
 
 # Monitoring tool
 
