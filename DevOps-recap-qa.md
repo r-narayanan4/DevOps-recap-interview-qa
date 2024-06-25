@@ -24,6 +24,10 @@ or
 
 I quit my previous work to advance in my profession and take on new challenges. Even though I had a great time there, I was ready for something different. I also desired to live nearer to my hometown.
 
+or
+
+I left my previous job because there were limited projects, and I couldn't fully utilize my skills. Additionally, I wanted to relocate closer to my hometown to be near family, which will help me maintain a better work-life balance.
+
 ### 3. What is your expected salary?
 
 I'm aiming for a salary that reflects my experience and the responsibilities of the role, ensuring a win-win situation for both of us.
