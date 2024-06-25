@@ -914,3 +914,39 @@ To secure a Grafana instance, you can:
 
 By understanding these basic concepts and functionalities, beginners can start leveraging Grafana for effective monitoring and observability.
 
+
+## Deepsense Digital Solutions Pvt Ltd
+
+## Overview
+Deepsense Digital Solutions Pvt Ltd is a digital and technology agency with over 80 professionals. The company specializes in providing comprehensive digital marketing solutions, leveraging innovation, creativity, and technology to create impactful marketing campaigns.
+
+## Services Offered
+Deepsense offers a wide range of services across various digital domains:
+
+- **Digital Marketing**: SEO, social media marketing, content marketing, email marketing, and PPC campaigns.
+- **Web Development and Design**: Including UX/UI design and development for websites.
+- **Mobile App Development**: Creation and design of mobile applications.
+- **Advanced Technologies**: Such as AI, AR/VR development, IoT, and chatbot development.
+
+## Industry and Market Position
+Deepsense serves a diverse range of industries including hospitality, education, healthcare, FMCG, and more. They have a notable clientele which includes companies like ITC Group, CavinKare, TTK Group, Nippon Paint, Suguna Foods, and Walkaroo.
+
+## Recent Developments and Achievements
+The company prides itself on winning over 25 awards in the digital marketing space. Their approach is centered around innovation and pushing the boundaries of what’s possible in digital marketing.
+
+## Leadership
+The company was co-founded by Ashok Shanker, Rakesh R., and Rithesh R. They have steered the company from a small startup to a significant player in the digital solutions market.
+
+## Company Culture and Values
+Deepsense emphasizes a culture of curiosity and continuous learning. The team is known for its collaborative spirit and commitment to client success. They prioritize putting clients’ goals first and fostering a work environment that encourages creativity and innovation.
+
+
+## Final Questions
+
+## 1.How does Deepsense support professional development and continuous learning for its employees?
+
+## 2.What opportunities for professional growth and development does Deepsense offer?
+
+## 3. What are the next steps in the hiring process?
+
+
