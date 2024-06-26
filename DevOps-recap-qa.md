@@ -1042,4 +1042,15 @@ Deepsense emphasizes a culture of curiosity and continuous learning. The team is
 
 ## 3. What are the next steps in the hiring process?
 
+# Interview Preparation
+
+## Questions to Ask During Your Interview
+
+1. **What advice would you give to the successful candidate who wants to do a really good job in this position?**
+
+2. **What is the culture like here within this company?**
+
+3. **What challenges are your company facing right now? How can I help you to overcome them in this role?**
+
+4. **What do you need me to concentrate on in the first 30 days starting?**
 
