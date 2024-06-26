@@ -2,7 +2,7 @@
 
 ### 1. Tell me about yourself
 
-Hello, it's nice to meet you. I'm Lakshmi Narayanan, and I'm excited to discuss how my skills and experience can benefit your company.
+Hello, it's nice to meet you. I'm Lakshmi Narayanan,
 
 **Skills:**
 
