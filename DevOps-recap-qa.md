@@ -18,15 +18,9 @@ I am always eager to learn new technologies and actively seeking opportunities t
 
 ### 2. Why did you leave your previous company?
 
-I left my old job to grow in my career and take on new challenges. While I enjoyed my time there, I felt ready for something new. Plus, I wanted to be closer to my hometown.
+My previous company underwent downsizing due to a limited number of projects, which resulted in my position being impacted. I am now looking for new opportunities to leverage my skills and contribute to a growing team.
 
-or 
-
-I quit my previous work to advance in my profession and take on new challenges. Even though I had a great time there, I was ready for something different. I also desired to live nearer to my hometown.
-
-or
-
-I left my previous job because there were limited projects, and I couldn't fully utilize my skills. Additionally, I wanted to relocate closer to my hometown to be near family, which will help me maintain a better work-life balance.
+My previous company downsized due to fewer projects, so I'm now excited to find new opportunities where I can contribute and grow."
 
 ### 3. What is your expected salary?
 
@@ -109,7 +103,6 @@ DevOps Engineers enhance software delivery by integrating automation and continu
 Agile methodology is a project management framework that breaks projects down into several dynamic phases, commonly known as sprints.
 
 The Agile framework is an iterative methodology. After every sprint, teams reflect and look back to see if there was anything that could be improved so they can adjust their strategy for the next sprint.
-
 
 # Networking Concepts
 
@@ -1008,31 +1001,58 @@ To secure a Grafana instance, you can:
 By understanding these basic concepts and functionalities, beginners can start leveraging Grafana for effective monitoring and observability.
 
 
-## Deepsense Digital Solutions Pvt Ltd
+# Inspiron Labs
 
 ## Overview
-Deepsense Digital Solutions Pvt Ltd is a digital and technology agency with over 80 professionals. The company specializes in providing comprehensive digital marketing solutions, leveraging innovation, creativity, and technology to create impactful marketing campaigns.
+**Inspiron Labs Software Systems Private Limited** is a prominent IT solutions company, established in 2010. It is known for delivering innovative and custom-tailored software solutions to a diverse range of industries globally. With a strong emphasis on quality, customer satisfaction, and technological advancement, Inspiron Labs has carved out a significant niche in the IT industry.
 
-## Services Offered
-Deepsense offers a wide range of services across various digital domains:
+## Founders and Directors
+- **Nandan Upadhyay** - Chief Executive Officer
+- **Shashikant Pandey** - Vice President
+- **Sagar Trehan** - Chief Technology Officer
+- **Arpita Saha** - Human Resource Manager
 
-- **Digital Marketing**: SEO, social media marketing, content marketing, email marketing, and PPC campaigns.
-- **Web Development and Design**: Including UX/UI design and development for websites.
-- **Mobile App Development**: Creation and design of mobile applications.
-- **Advanced Technologies**: Such as AI, AR/VR development, IoT, and chatbot development.
+## Mission
+Inspiron Labs aims to lead the software and app development industry by delivering innovative, high-quality solutions that drive digital transformation for clients globally.
 
-## Industry and Market Position
-Deepsense serves a diverse range of industries including hospitality, education, healthcare, FMCG, and more. They have a notable clientele which includes companies like ITC Group, CavinKare, TTK Group, Nippon Paint, Suguna Foods, and Walkaroo.
+## Vision
+To be a top technology consultant and service provider, recognized for excellence, collaboration, and continuous improvement, leveraging cutting-edge technology to create state-of-the-art solutions across various industries.
 
-## Recent Developments and Achievements
-The company prides itself on winning over 25 awards in the digital marketing space. Their approach is centered around innovation and pushing the boundaries of what’s possible in digital marketing.
+## Services
+- **Custom Software Development**
+- **Product Engineering**
+- **Business Intelligence**
+- **Cloud Adoption (DevOps, AWS Managed Services, Cloud Consulting)**
+- **App Development (Web and Mobile)**
+- **UI/UX Design**
+- **AI/ML Solutions**
+- **Blockchain Solutions**
+- **Maintenance & Support**
+- **QA & Testing**
+- **Staff Augmentation**
 
-## Leadership
-The company was co-founded by Ashok Shanker, Rakesh R., and Rithesh R. They have steered the company from a small startup to a significant player in the digital solutions market.
+## Industries Served
+- Healthcare
+- Insurance
+- Startups
+- Telecom
+- Automotive
+- E-commerce
+- Education
+- Fintech
+- Media
+- Hospitality
+- Travel
 
-## Company Culture and Values
-Deepsense emphasizes a culture of curiosity and continuous learning. The team is known for its collaborative spirit and commitment to client success. They prioritize putting clients’ goals first and fostering a work environment that encourages creativity and innovation.
-
+## Key Clients
+- BMW
+- Government of Canada
+- Hanover Research
+- Botiga
+- Soni Education
+- VOC Automotive
+- JK Tyres
+- FitBox
 
 ## Final Questions
 
