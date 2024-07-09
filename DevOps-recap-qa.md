@@ -1060,9 +1060,9 @@ To be a top technology consultant and service provider, recognized for excellenc
 
 ## Final Questions
 
-## 1.How does Deepsense support professional development and continuous learning for its employees?
+## 1.How does your company support professional development and continuous learning for its employees?
 
-## 2.What opportunities for professional growth and development does Deepsense offer?
+## 2.What opportunities for professional growth and development does you company  offer?
 
 ## 3. What are the next steps in the hiring process?
 
