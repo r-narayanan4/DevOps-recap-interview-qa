@@ -20,6 +20,10 @@ I am always eager to learn new technologies and actively seeking opportunities t
 
 My previous company underwent downsizing due to a limited number of projects, which resulted in my position being impacted. I am now looking for new opportunities to leverage my skills and contribute to a growing team.
 
+or
+
+Due to a lack of projects, my prior employer had to downsize, which affected my position. Right now, I'm searching for fresh chances to use my abilities and support a developing group.
+
 My previous company downsized due to fewer projects, so I'm now excited to find new opportunities where I can contribute and grow."
 
 ### 3. What is your expected salary?
