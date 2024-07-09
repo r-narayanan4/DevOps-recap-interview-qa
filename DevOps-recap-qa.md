@@ -10,7 +10,7 @@ First off, I have experience with continuous integration and delivery (CI/CD) wi
 
 **Experience/Education:**
 
-In 2021, I earned my degree in Electronic and Communication Engineering. After that, I worked for Buildbot Technologies for more than a year as a DevOps engineer. Throughout my employment, I specialized in automating and optimizing development workflows, particularly through scalable CI/CD pipelines and configuration management.
+In 2021, I earned my degree in Electronic and Communication Engineering. After that, I worked for Buildbot Technologies for more than a year as a DevOps engineer.
 
 **Type of Person:**
 
