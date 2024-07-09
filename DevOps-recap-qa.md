@@ -6,7 +6,7 @@ Hello, it's nice to meet you. I'm Lakshmi Narayanan,
 
 **Skills:**
 
-To start with, I’m skilled at using tools like Jenkins for continuous integration and delivery (CI/CD). I can manage containers with Kubernetes and Docker, and I also have good experience with configuration management tools like Ansible. I also have hands-on experience with AWS and Terraform to set up and manage infrastructure.
+First off, I have experience with continuous integration and delivery (CI/CD) with technologies like Jenkins. In addition to having solid experience with configuration management tools like Ansible, I am also capable of managing containers with Kubernetes and Docker. I've also set up and managed infrastructure with AWS and Terraform firsthand.
 
 **Experience/Education:**
 
